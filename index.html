@@ -26,6 +26,7 @@
           <a class="nav-menu__item" href="#experience">Опыт</a>
           <a class="nav-menu__item" href="#education">Образование</a>
           <a class="nav-menu__item" href="#projects">Проекты</a>
+          <a class="nav-menu__item" href="https://vobiryukov12.github.io/hangman-game/">Поиграть</a>
           <div class="theme-btn theme-btn--light"></div>
         </div>
       </nav>
@@ -71,8 +72,9 @@
         <div class="container tags__container section-box">
           <h2 class="about-me__title title">Навыки</h2>
           <ul class="tags__list">
-            <li class="tags__item tags__item--javascript">#javascript</li>
             <li class="tags__item tags__item--react">#react</li>
+            <li class="tags__item tags__item--typescript">#typescript</li>
+            <li class="tags__item tags__item--javascript">#javascript</li>
             <li class="tags__item tags__item--html">#html</li>
             <li class="tags__item tags__item--css">#css</li>
             <li class="tags__item tags__item--sass">#sass</li>
@@ -154,6 +156,8 @@
                     <li>Работа с системой контроля версий Git и облачной платформой GitLab</li>
                     <li>Использование удаленного компьютера в качестве среды разработки с помощью Remote SSH</li>
                     <li>Работа с несколькими хостами для развертывания и тестирования проектов</li>
+                    <li>Поиск ответов на вопросы и решение проблем с помощью Stackoverflow и других подобных ресурсов</li>
+                    <li>Соблюдение дедлайнов</li>
                   </ul>
                 </div>
                 <div class="experience__tags">
@@ -178,7 +182,7 @@
                 <a class="experience__org" href="https://netology.ru/programs/react">Нетология</a>
               </div>
               <div class="experience__body">
-                <div class="experience__date">24 Июля 2023 - 29 Сентября 2023 <span class="experience__process">(в процессе)</span></div>
+                <div class="experience__date">24 Июля 2023 - 5 Октября 2023</div>
                 <div class="experience__name">Курс "React для JS-разработчиков"</div>
                 <div class="experience__message">
                   Полученные знания и навыки:
@@ -191,12 +195,13 @@
                     <li>Работа с контролируемыми и неконтролируемыми компонентами</li>
                     <li>Работа с дочерними компонентами, объединение компонентов для создания более сложных</li>
                     <li>Реализация постраничной навигации React-приложений</li>
-                    <li>Работа с пакетами Redux Toolkit, Redux Observable и Redux Saga</li>
+                    <li>Работа с Redux</li>
                   </ul>
                 </div>
                 <div class="experience__tags">
-                  React • Redux (Toolkit, Observable, Saga)   
+                  React • Redux   
                 </div>
+                <a class="experience__certificate" href="https://netology.ru/sharing/23d6dc89ada8c4705ec2b56b57f7a391?utm_source=social&utm_campaign=certificate_lms" target="_blank"><i class="fa-solid fa-certificate"></i>Сертификат</a>
               </div>
             </li>
             <li class="experience__item">
@@ -238,10 +243,10 @@
                 <span class="experience__org">Российский университет дружбы народов, Москва</span>
               </div>
               <div class="experience__body">
-                <div class="experience__date">Сентябрь 2016 - Июль 2020</div>
+                <div class="experience__date">Сентябрь 2020 - Июль 2022</div>
                 <div class="experience__name">Управление инфокоммуникациями и интеллектуальные системы</div>
                 <br>
-                <div class="experience__date">Сентябрь 2020 - Июль 2022</div>
+                <div class="experience__date">Сентябрь 2016 - Июль 2020</div>
                 <div class="experience__name">Фундаментальная информатика и информационные технологии</div>
               </div>
             </li>
@@ -257,14 +262,40 @@
             <nav class="tabs__items">
               <ul class="tabs__list">
                 <li class="tabs__item tabs__item--active" data-filter="all">Все</li>
-                <li class="tabs__item" data-filter="js">JavaScript</li>
                 <li class="tabs__item" data-filter="react">React</li>
+                <li class="tabs__item" data-filter="ts">TypeScript</li>
+                <li class="tabs__item" data-filter="js">JavaScript</li>
               </ul>
             </nav>
   
             <div class="tabs__body">
               <div class="tabs__block tabs__block--active">
                 <div class="projects__cards-box">
+                  <div class="projects__cards-item cards-item react ts">
+                    <div class="cards-item__box-img cards-item__overlay">
+                      <img class="cards-item__img" src="img/store.jpg" alt="Store">
+                    </div>
+                    <div class="cards-item__content">
+                      <h3 class="cards-item__title">Интернет-магазин</h3>
+                      <ul class="cards-item__stack">
+                          <li class="cards-item__stack-button">React (Vite)</li>
+                          <li class="cards-item__stack-button">TypeScript</li>
+                          <li class="cards-item__stack-button">CSS</li>
+                          <li class="cards-item__stack-button">Bootstrap</li>
+                      </ul>
+                      <p class="cards-item__text">Интернет-магазин с поиском, корзиной, оформлением заказа и навигацией</p>
+                      <div class="cards-item__links links">
+                        <a class="links__item" href="https://github.com/vobiryukov12/online-store" target="_blank">
+                          Github
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="links__item" href="https://vobiryukov12.github.io/online-store/" target="_blank">
+                          Деплой
+                          <i class="fa-solid fa-globe"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                   <div class="projects__cards-item cards-item js">
                     <div class="cards-item__box-img">
                       <img class="cards-item__img" src="img/itblog.jpg" alt="Momentum">
@@ -272,9 +303,14 @@
                     <div class="cards-item__content">
                       <h3 class="cards-item__title">itBlog</h3>
                       <ul class="cards-item__stack">
-                          <li class="cards-item__stack-button">JavaScript</li>
-                          <li class="cards-item__stack-button">HTML</li>
-                          <li class="cards-item__stack-button">SCSS</li>
+                        <li class="cards-item__stack-button">JavaScript</li>
+                        <li class="cards-item__stack-button">HTML</li>
+                        <li class="cards-item__stack-button">SCSS</li>
+                        <li class="cards-item__stack-button">Webpack</li>
+                        <li class="cards-item__stack-button">BEM</li>
+                        <li class="cards-item__stack-button">Autoprefixer</li>
+                        <li class="cards-item__stack-button">Svg Sprite</li>
+                        <li class="cards-item__stack-button">Mobile First</li>
                       </ul>
                       <p class="cards-item__text">Блог о технологиях и программировании со статьями и новостями</p>
                       <div class="cards-item__links links">
@@ -291,98 +327,51 @@
                   </div>
                   <div class="projects__cards-item cards-item js">
                     <div class="cards-item__box-img">
-                      <img class="cards-item__img" src="img/momentum.jpg" alt="Momentum">
+                      <img class="cards-item__img" src="img/hangman.jpg" alt="Momentum">
                     </div>
                     <div class="cards-item__content">
-                      <h3 class="cards-item__title">Momentum (RS School)</h3>
+                      <h3 class="cards-item__title">Hangman game</h3>
                       <ul class="cards-item__stack">
-                          <li class="cards-item__stack-button">JavaScript</li>
-                          <li class="cards-item__stack-button">HTML</li>
-                          <li class="cards-item__stack-button">CSS</li>
+                        <li class="cards-item__stack-button">JavaScript</li>
+                        <li class="cards-item__stack-button">HTML</li>
+                        <li class="cards-item__stack-button">Tailwind CSS</li>
+                        <li class="cards-item__stack-button">Vite</li>
                       </ul>
-                      <p class="cards-item__text">Momentum - это аналог одноименного веб-приложения Chrome Web Store</p>
+                      <p class="cards-item__text">Hangman - игра, в которой необходимо угадать по буквам заданное слово</p>
                       <div class="cards-item__links links">
-                        <a class="links__item" href="https://github.com/vobiryukov12/momentum" target="_blank">
+                        <a class="links__item" href="https://github.com/vobiryukov12/hangman-game" target="_blank">
                           Github
                           <i class="fa-brands fa-github"></i>
                         </a>
-                        <a class="links__item" href="https://vobiryukov12.github.io/momentum/" target="_blank">
-                          Деплой
+                        <a class="links__item" href="https://vobiryukov12.github.io/hangman-game/" target="_blank">
+                          Деплой 
                           <i class="fa-solid fa-globe"></i>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div class="projects__cards-item cards-item react">
-                    <div class="cards-item__box-img cards-item__overlay">
-                      <img class="cards-item__img" src="img/calendar.jpg" alt="Process">
+                  <div class="projects__cards-item cards-item js ts react">
+                    <div class="cards-item__box-img">
+                      <img class="cards-item__img" src="img/react-mini-apps.jpg" alt="React mini-apps">
                     </div>
                     <div class="cards-item__content">
-                      <h3 class="cards-item__title">Календарь</h3>
+                      <h3 class="cards-item__title">React mini-apps</h3>
                       <ul class="cards-item__stack">
-                          <li class="cards-item__stack-button">React (CRA)</li>
-                          <li class="cards-item__stack-button">CSS</li>
+                        <li class="cards-item__stack-button">React (Vite, CRA)</li>
+                        <li class="cards-item__stack-button">TypeScript</li>
+                        <li class="cards-item__stack-button">JavaScript</li>
+                        <li class="cards-item__stack-button">SCSS</li>
+                        <li class="cards-item__stack-button">CSS</li>
                       </ul>
-                      <p class="cards-item__text">React-компонент Calendar, который показывает текущую дату и месяц</p>
+                      <p class="cards-item__text">Мини-приложения на React</p>
                       <div class="cards-item__links links">
-                        <a class="links__item" href="https://github.com/vobiryukov12/calendar" target="_blank">
-                          Github
-                          <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a class="links__item" href="https://vobiryukov12.github.io/calendar/" target="_blank">
+                        <a class="links__item" href="https://vobiryukov12.github.io/react-mini-apps/" target="_blank">
                           Деплой
                           <i class="fa-solid fa-globe"></i>
                         </a>
                       </div>
                     </div>
-                  </div>
-                  <div class="projects__cards-item cards-item react">
-                    <div class="cards-item__box-img cards-item__overlay">
-                      <img class="cards-item__img" src="img/portfolio-filters.jpg" alt="Process">
-                    </div>
-                    <div class="cards-item__content">
-                      <h3 class="cards-item__title">Портфолио с фильтрами</h3>
-                      <ul class="cards-item__stack">
-                          <li class="cards-item__stack-button">React (Vite)</li>
-                          <li class="cards-item__stack-button">SCSS</li>
-                      </ul>
-                      <p class="cards-item__text">React-компонент Portfolio, хранящий список фильтров, активный фильтр и список проектов</p>
-                      <div class="cards-item__links links">
-                        <a class="links__item" href="https://github.com/vobiryukov12/portfolio-filters" target="_blank">
-                          Github
-                          <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a class="links__item" href="https://vobiryukov12.github.io/portfolio-filters/" target="_blank">
-                          Деплой
-                          <i class="fa-solid fa-globe"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="projects__cards-item cards-item react">
-                    <div class="cards-item__box-img cards-item__overlay">
-                      <img class="cards-item__img" src="img/process.jpg" alt="Process">
-                    </div>
-                    <div class="cards-item__content">
-                      <h3 class="cards-item__title">Интернет-магазин</h3>
-                      <ul class="cards-item__stack">
-                          <li class="cards-item__stack-button">React</li>
-                          <li class="cards-item__stack-button">Redux</li>
-                          <li class="cards-item__stack-button">SCSS</li>
-                      </ul>
-                      <p class="cards-item__text">Интернет-магазин с поиском, корзиной, оформлением заказа и навигацией</p>
-                      <div class="cards-item__links links">
-                        <a class="links__item" href="https://github.com/vobiryukov12/online-store" target="_blank">
-                          Github
-                          <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a class="links__item" href="https://vobiryukov12.github.io/online-store/" target="_blank">
-                          Деплой
-                          <i class="fa-solid fa-globe"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  </div> 
                 </div>
               </div>
             </div>
