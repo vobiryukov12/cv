@@ -110,6 +110,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 
   gap: 20px;
 }
@@ -339,6 +340,12 @@ a {
   color: #000000;
 
   background: #f0db4f;
+}
+
+.tags__item--typescript {
+  color: #ffffff;
+
+  background: #1572b6;
 }
 
 .tags__item--react {
@@ -723,7 +730,7 @@ a {
 }
 
 .theme-light .cards-item {
-  background: #ffffff;
+  background: #fffefe;
 }
 
 .theme-light .cards-item__stack-button {
