@@ -1,3 +1,3 @@
 # cv
 
-https://vobiryukov12.github.io/cv/
+https://vobiryukov12.github.io/cv/ 
