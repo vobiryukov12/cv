@@ -539,6 +539,10 @@ a {
   margin-bottom: 30px;
 }
 
+.projects__text {
+  margin-bottom: 30px;
+}
+
 .tabs__list {
   display: flex;
   flex-wrap: wrap;
